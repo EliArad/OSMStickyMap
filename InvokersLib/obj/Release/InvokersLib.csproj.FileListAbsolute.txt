@@ -1,0 +1,11 @@
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\bin\Release\InvokersLib.dll
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\bin\Release\InvokersLib.pdb
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\bin\Release\LedBulb.dll
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\bin\Release\ToggleSwitch.dll
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\bin\Release\LedBulb.pdb
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\obj\Release\InvokersLib.csproj.AssemblyReference.cache
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\obj\Release\InvokersLib.csproj.CoreCompileInputs.cache
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\obj\Release\InvokersLib.csproj.CopyComplete
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\obj\Release\InvokersLib.dll
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\obj\Release\InvokersLib.pdb
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\bin\Release\ToggleSwitch.pdb

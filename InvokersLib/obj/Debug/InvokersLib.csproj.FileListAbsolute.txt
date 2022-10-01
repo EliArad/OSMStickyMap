@@ -1,0 +1,16 @@
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\bin\Debug\InvokersLib.dll
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\bin\Debug\InvokersLib.pdb
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\bin\Debug\LedBulb.dll
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\bin\Debug\ToggleSwitch.dll
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\bin\Debug\LedBulb.pdb
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\bin\Debug\ToggleSwitch.pdb
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\obj\Debug\InvokersLib.csproj.AssemblyReference.cache
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\obj\Debug\InvokersLib.csproj.CoreCompileInputs.cache
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\obj\Debug\InvokersLib.csproj.CopyComplete
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\obj\Debug\InvokersLib.dll
+D:\Customers\ArielL\megapop2022_bluesky\Client\InvokersLib\obj\Debug\InvokersLib.pdb
+D:\Temp\OSMStickyMap\InvokersLib\obj\Debug\InvokersLib.csproj.CoreCompileInputs.cache
+D:\Temp\OSMStickyMap\InvokersLib\obj\Debug\InvokersLib.dll
+D:\Temp\OSMStickyMap\InvokersLib\obj\Debug\InvokersLib.pdb
+D:\Temp\OSMStickyMap\InvokersLib\bin\Debug\InvokersLib.dll
+D:\Temp\OSMStickyMap\InvokersLib\bin\Debug\InvokersLib.pdb

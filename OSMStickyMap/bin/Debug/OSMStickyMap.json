@@ -1,0 +1,35 @@
+{
+  "OSMBaseDir": "d:\\OSMTiles\\Israel",
+  "lineColor": "Black",
+  "MapAccessMode": 2,
+  "ShowMapCoordinate": 1,
+  "ShowMapBorder": false,
+  "LoadWithZoom": false,
+  "DownloadMissingTile": 0,
+  "latestMapLatLocation": 30.751277776257815,
+  "latestMapLonLocation": 37.99072265625,
+  "latestMapZoom": 7.0,
+  "SupportOnTrackOnMap": false,
+  "Top": 44,
+  "Left": 247,
+  "Width": 1427,
+  "Height": 800,
+  "MapProvider": "GoogleSatelliteMap",
+  "LastLoadMapLat": 33.0,
+  "LastLoadMapLon": 34.0,
+  "LastLoadMapZoom": 0,
+  "lastwinPos": {
+    "LoadMapWindow": {
+      "x": 748,
+      "y": 237
+    },
+    "MapSaveLocationWindow": {
+      "x": 0,
+      "y": 0
+    },
+    "FormSelectCity": {
+      "x": 0,
+      "y": 0
+    }
+  }
+}
