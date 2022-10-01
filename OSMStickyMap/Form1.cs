@@ -430,7 +430,7 @@ namespace OSMStickyMap
         }
         public static void MpShowMessageBox(string msg, int errorNumber = 0)
         {
-            MpMessageBox m = new MpMessageBox(msg, errorNumber);
+            MyMessageBox m = new MyMessageBox(msg, errorNumber);
             m.ShowDialog();
         }
 

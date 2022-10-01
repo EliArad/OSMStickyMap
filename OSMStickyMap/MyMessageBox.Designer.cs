@@ -75,7 +75,7 @@ namespace OSMStickyMap
             this.MinimizeBox = false;
             this.Name = "MpMessageBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Mega Pop Client";
+            this.Text = "OSM";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MpMessageBox_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
