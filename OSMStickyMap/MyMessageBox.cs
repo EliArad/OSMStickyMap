@@ -11,10 +11,10 @@ using System.Windows.Forms;
 
 namespace OSMStickyMap
 {
-    public partial class MpMessageBox : Form
+    public partial class MyMessageBox : Form
     {
         
-        public MpMessageBox(string text, int errorNumber = 0)
+        public MyMessageBox(string text, int errorNumber = 0)
         {
             InitializeComponent();
 

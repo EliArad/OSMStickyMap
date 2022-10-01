@@ -47,8 +47,7 @@ namespace OSMStickyMap
         GMapOverlay overlayMarkers = null;
         GMapOverlay overlayRoutes = null;
         GMapOverlay overlayPolygons = null;
-        // GMapOverlay overlayRadar    = null;
-        RadarOverlay overlayRadar = null;
+        // GMapOverlay overlayRadar    = null;        
         GMapOverlay overlayCustom = null;
 
         GMapPolygon savePoly = null;
@@ -61,7 +60,7 @@ namespace OSMStickyMap
         GMapOverlay gMapOverlay;
         GMapOverlay gMapOverlayDraw;
         GMapOverlay line_overlay;
-        Radar currentRadar;
+      
         private int _xPos;
         private int _yPos;
         private bool _dragging;
@@ -294,15 +293,13 @@ namespace OSMStickyMap
             overlayRoutes = new GMapOverlay("routes");
             overlayPolygons = new GMapOverlay("polygons");
             // overlayRadar    = new GMapOverlay("radar");
-            overlayRadar = new RadarOverlay("radar");
+          
             overlayCustom = new GMapOverlay("custom");
             // gmap.Overlays.Add(overlayRadar);
             // ####################
-            gMapControl1.Overlays.Add(overlayRadar);
+   
             gMapControl1.Overlays.Add(overlayCustom);
-
-
-
+ 
             gMapOverlayDraw = new GMapOverlay("drawings");
             gMapControl1.Overlays.Add(gMapOverlayDraw);
 
@@ -1380,25 +1377,7 @@ namespace OSMStickyMap
             outMessage = "";
             // lblRadarErr.Visible = false;
             // overlayRadar.Markers.RemoveAt(0);
-            
-
-            if (mode == RADAR_OPERATION_MODE.ADD)
-            {
-                Radar radar = new Radar(overlayRadar, radarLat, radarLng, radarRange, Azimuth, FoV, argbColor, transparency);
-                radar.Draw();
-                currentRadar = radar;
-                return true;
-            }
-            if (mode == RADAR_OPERATION_MODE.EDIT)
-            {
-                Radar radarOld = currentRadar;
-                if (radarOld != null)
-                    radarOld.Delete();
-                Radar radar = new Radar(overlayRadar, radarLat, radarLng, radarRange, Azimuth, FoV, argbColor, transparency);
-                radar.Draw();
-                currentRadar = radar;
-                return true;
-            }
+           
 
             return false;
 
@@ -1446,31 +1425,9 @@ namespace OSMStickyMap
         {
             if (IsControlDown())
             {
-                if (item is RadarPolygon)
-                {
-                    Radar radar = ((RadarPolygon)item).radar;
-                    radar.Delete();
-                    return;
-                }
+                 
             }
-            /*
-            if (chkSetRadar.Checked && radioRadarEdit.Checked)
-            {
-                if (item is RadarPolygon)
-                {
-                    Radar radar = ((RadarPolygon)item).radar;
-                    txtRadarLat.Text = radar.Lat.ToString();
-                    txtRadarLon.Text = radar.Lon.ToString();
-                    txtRadarRange.Text = radar.Range.ToString();
-                    txtRadarAzim.Text = radar.Azimuth.ToString();
-                    txtRadarFov.Text = radar.Fov.ToString();
-                    txtTransparency.Text = radar.Transparency.ToString();
-                    txtColor.BackColor = Color.FromArgb(radar.Argb);
-                    currentRadar = radar;
-                    return;
-                }
-            }
-            */
+             
             // unhighlite previously highlighted items:
             unhighlightPoly();
             unhighlightRoute();

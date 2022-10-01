@@ -2,7 +2,7 @@
 
 namespace OSMStickyMap
 {
-    partial class MpMessageBox
+    partial class MyMessageBox
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace OSMStickyMap
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MpMessageBox));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MyMessageBox));
             this.btnOk = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
